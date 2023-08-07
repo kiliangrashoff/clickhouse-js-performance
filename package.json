@@ -1,0 +1,19 @@
+{
+  "name": "clickhouse-js-performance",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Kilian Grashoff",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn ts-node-dev --files --debounce --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@clickhouse/client": "^0.2.0",
+    "p-limit": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
