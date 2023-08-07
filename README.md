@@ -3,11 +3,13 @@
 This is a performance test for [clickhouse-js](https://github.com/ClickHouse/clickhouse-js/), intended to reproduce an issue where performance is degraded when using keep-alive. 
 
 ## Dependencies
-- NodeJS
-- yarn
+- volta
+  - used to manage Node.JS and yarn version, you can also install node 18 and yarn 1.22 using other tools
 - ClickHouse
 
-## Usage
-1. Make sure clickhouse is running, edit index.ts to change host or credentials.
+## Installation
+1. `volta install node@18 yarn@1.22`
 2. `yarn`
-3. `yarn start`
+
+## Usage
+`yarn start`
