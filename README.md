@@ -4,11 +4,11 @@ This is a performance test for [clickhouse-js](https://github.com/ClickHouse/cli
 
 ## Dependencies
 - volta
-  - used to manage Node.JS and yarn version, you can also install node 18 and yarn 1.22 using other tools
+  - used to manage Node.JS and yarn version, you can also install node 18.17 and yarn 1.22 using other tools
 - ClickHouse
 
 ## Installation
-1. `volta install node@18 yarn@1.22`
+1. `volta install node yarn`
 2. `yarn`
 
 ## Usage
