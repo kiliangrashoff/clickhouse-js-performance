@@ -32,7 +32,7 @@ async function measureAverageResponseTime(client: ClickHouseClient, keep_alive: 
     return responseTime
   }))
   const responseTimes = await Promise.all(queries)
-  return responseTimes.reduce((a: any, b: any) => a + b, 0) / responseTimes.length
+  return responseTimes.reduce((a: number, b: number) => a + b, 0) / responseTimes.length
 }
 
 async function createClickHouseClient(keep_alive: boolean) {
